@@ -1,0 +1,193 @@
+{
+    "name": "Drone_Inputs",
+    "maps": [
+        {
+            "name": "Drone",
+            "id": "d3362b0c-d0bf-4931-887a-a1ff022c1db6",
+            "actions": [
+                {
+                    "name": "Cyclic",
+                    "type": "PassThrough",
+                    "id": "7edd75ed-b984-4df7-af0d-fe5176d7e52a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pedals",
+                    "type": "Value",
+                    "id": "96bc2c65-d0c4-424c-87d2-184e4d6f78f1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Throttle",
+                    "type": "Value",
+                    "id": "0157d1a2-8a97-4023-8851-b531cb2a30a7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Deneme",
+                    "type": "Value",
+                    "id": "308acc53-07c3-4441-ba75-05a787c50e3d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Joystick",
+                    "id": "2660f42d-b00f-4be0-95e8-2b926eabb93c",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "61b924cc-fd22-468e-ae93-80143076be00",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "4a5e200c-b1cd-496f-aff8-e53ee2fd10ad",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "52536c38-b611-4b58-8932-df0fc4392178",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "e1b83a87-8357-4c54-b978-c8f7e5ce10d5",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Rstick",
+                    "id": "51e1a7ad-1b94-46d9-a557-2d8dc3be520f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "207be2d1-2017-4101-84cd-d42d811405f0",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e50f94f1-b374-41b5-9a67-d2deda7ca562",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "c9f9176f-ec67-4b6f-b4d8-77d693679487",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "19e4b0f8-9631-4f69-8378-81879dece975",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "d4d7dc55-c5ec-4ff8-894e-876ea9dcb8e1",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "399ec67b-48be-4df0-9a50-a18cde9ee386",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deneme",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32603982-dd3c-479a-9ef5-37dbdff1d182",
+                    "path": "<HID::Logitech Logitech Extreme 3D>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deneme",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
